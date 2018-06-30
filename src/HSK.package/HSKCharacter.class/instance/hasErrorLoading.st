@@ -1,0 +1,3 @@
+markerror
+hasErrorLoading
+	hasErrorLoading := true.

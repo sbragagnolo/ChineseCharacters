@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK",
+	"classinstvars" : [
+		"loadingRelated",
+		"instances"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"traditional",
+		"simplified",
+		"pinyin",
+		"zhuyin",
+		"definition",
+		"frequency",
+		"hasErrorLoading",
+		"module",
+		"phonems",
+		"wordsAmount",
+		"radicals",
+		"graphicals",
+		"hfwords",
+		"mdwords"
+	],
+	"name" : "HSKCharacter",
+	"type" : "normal"
+}

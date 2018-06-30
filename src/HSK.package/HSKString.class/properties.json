@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "ArrayedCollection",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "HSKString",
+	"type" : "variable"
+}

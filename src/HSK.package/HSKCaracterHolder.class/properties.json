@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"char",
+		"pinyin"
+	],
+	"name" : "HSKCaracterHolder",
+	"type" : "normal"
+}

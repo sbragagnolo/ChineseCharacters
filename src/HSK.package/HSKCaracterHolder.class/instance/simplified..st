@@ -1,0 +1,2 @@
+accessing
+simplified: aCharacter 
