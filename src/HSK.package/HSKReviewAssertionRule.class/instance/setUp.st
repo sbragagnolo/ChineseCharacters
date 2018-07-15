@@ -1,3 +1,3 @@
 running
 setUp
-	character := HSKCharacter instances detect: [ :t | t traditional  = $有 ].
+	character  := HSKCharacter instances detect: [ :t | t traditional  = $有 ].
