@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ArrayedCollection",
-	"category" : "HSK",
+	"category" : "HSK-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
