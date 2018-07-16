@@ -1,6 +1,6 @@
 running
-testFriendlyPronunciationRuleRespondsPositive
+testFriendlyPhoneticRuleRespondsPositive
 	| test result | 
-	test := self friendlyPronounciationTest.
+	test := self friendlyPhoneticTest.
 	result := test assertWith: 'you'.
 	self assert: result value. 

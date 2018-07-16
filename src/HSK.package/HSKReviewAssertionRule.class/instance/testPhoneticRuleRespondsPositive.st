@@ -1,6 +1,6 @@
 running
-testPronunciationRuleRespondsPositive
+testPhoneticRuleRespondsPositive
 	| test result | 
-	test := self pronounciationTest.
+	test := self phoneticTest.
 	result := test assertWith: 'you3'.
 	self assert: result value. 
