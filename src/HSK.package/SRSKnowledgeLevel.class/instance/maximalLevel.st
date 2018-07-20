@@ -1,3 +1,3 @@
 initialization
 maximalLevel
-	^ 10
+	^ self class rateTable size
