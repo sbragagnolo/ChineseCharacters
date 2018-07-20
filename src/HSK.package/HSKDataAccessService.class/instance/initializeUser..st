@@ -4,6 +4,6 @@ initializeUser: aUser
 		do: [ :i | 
 			aUser
 				registerKnowedge:
-					(HSKKnownKnowledge new
+					(SRSKnownContent new
 						knowledge: i;
 						yourself) ]

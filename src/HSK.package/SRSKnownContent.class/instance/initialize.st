@@ -1,5 +1,5 @@
 initialization
 initialize
 	super initialize .
-	level := HSKLevel zero. 
+	level := SRSKnowledgeLevel zero. 
 	lastReviewDate := DateAndTime new.

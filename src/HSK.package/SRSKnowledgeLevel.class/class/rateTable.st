@@ -1,6 +1,8 @@
 instance creation simple
 rateTable
-	^ {25 seconds.
+	^ {
+	0 seconds .
+	25 seconds.
 	2 minutes.
 	10 minutes.
 	1 hour.

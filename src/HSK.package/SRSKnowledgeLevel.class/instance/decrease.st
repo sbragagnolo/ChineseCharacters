@@ -1,4 +1,4 @@
 initialization
 decrease
-	level := level - 2 max: 0.
+	level := level - 2 max: 1.
 	leveldownTimes := leveldownTimes + 1

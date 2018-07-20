@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "HSK-Seaside-Model",
+	"category" : "HSK-Persistence",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

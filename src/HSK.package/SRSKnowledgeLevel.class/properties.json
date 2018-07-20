@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 7/21/2018 00:43",
 	"super" : "Object",
-	"category" : "HSK-Seaside-Model",
+	"category" : "HSK-SRS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -10,8 +10,9 @@
 		"levelUp",
 		"max",
 		"levelupTimes",
-		"leveldownTimes"
+		"leveldownTimes",
+		"announcer"
 	],
-	"name" : "HSKLevel",
+	"name" : "SRSKnowledgeLevel",
 	"type" : "normal"
 }

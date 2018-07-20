@@ -1,7 +1,7 @@
 {
-	"commentStamp" : "",
+	"commentStamp" : "SantiagoBragagnolo 7/21/2018 00:44",
 	"super" : "Object",
-	"category" : "HSK-Seaside-Model",
+	"category" : "HSK-SRS",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
@@ -10,6 +10,6 @@
 		"level",
 		"lastReviewDate"
 	],
-	"name" : "HSKKnownKnowledge",
+	"name" : "SRSKnownContent",
 	"type" : "normal"
 }
