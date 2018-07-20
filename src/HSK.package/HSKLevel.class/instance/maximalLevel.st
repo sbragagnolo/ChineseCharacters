@@ -1,0 +1,3 @@
+initialization
+maximalLevel
+	^ 10

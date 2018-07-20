@@ -1,13 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "TestCase",
-	"category" : "HSK-SRS",
+	"category" : "HSK-Seaside-Model",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"character"
+		"service"
 	],
-	"name" : "HSKReviewAssertionRule",
+	"name" : "HSKModelTests",
 	"type" : "normal"
 }

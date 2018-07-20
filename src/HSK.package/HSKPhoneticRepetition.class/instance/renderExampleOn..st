@@ -1,5 +1,5 @@
 rendering
-renderContentOn: html
+renderExampleOn: html
 	html tbsRow
 		with: [ html
 				tbsColumn: [ html tbsRow: [ html heading: 'Pinyin attack' ].

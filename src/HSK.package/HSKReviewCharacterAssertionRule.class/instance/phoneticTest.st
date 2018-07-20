@@ -1,5 +1,5 @@
 as yet unclassified
 phoneticTest
 	^ HSKPhoneticTest new
-		subject: character;
+		subject: subject;
 		yourself

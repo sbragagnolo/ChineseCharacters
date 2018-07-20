@@ -1,0 +1,3 @@
+accessing
+registerKnowedge: aKnownKnowledge
+	knownKnowledge add: aKnownKnowledge

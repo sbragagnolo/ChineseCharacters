@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Seaside-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"level",
+		"levelUp",
+		"max",
+		"levelupTimes",
+		"leveldownTimes"
+	],
+	"name" : "HSKLevel",
+	"type" : "normal"
+}

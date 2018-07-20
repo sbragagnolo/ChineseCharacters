@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "TBSBootstrapExample",
+	"super" : "WATask",
 	"category" : "HSK-Seaside",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"characters",
-		"components",
-		"position"
+		"character",
+		"test"
 	],
-	"name" : "HSKPhoneticRepetition",
+	"name" : "HSKWelcomeComponentPinyinTest",
 	"type" : "normal"
 }

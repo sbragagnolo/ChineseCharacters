@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Seaside-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"users"
+	],
+	"name" : "HSKDataAccessService",
+	"type" : "normal"
+}

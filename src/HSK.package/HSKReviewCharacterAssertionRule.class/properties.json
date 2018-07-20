@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "HSK-SRS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"subject"
+	],
+	"name" : "HSKReviewCharacterAssertionRule",
+	"type" : "normal"
+}

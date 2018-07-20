@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "WARestfulHandler",
+	"category" : "HSK-Seaside-REST",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"service"
+	],
+	"name" : "HSKRestHandler",
+	"type" : "normal"
+}

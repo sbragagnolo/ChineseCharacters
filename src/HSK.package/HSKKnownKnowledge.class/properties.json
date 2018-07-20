@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Seaside-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"knowledge",
+		"level",
+		"lastReviewDate"
+	],
+	"name" : "HSKKnownKnowledge",
+	"type" : "normal"
+}
