@@ -1,3 +1,0 @@
-initialization
-decrease
-	level decrease.

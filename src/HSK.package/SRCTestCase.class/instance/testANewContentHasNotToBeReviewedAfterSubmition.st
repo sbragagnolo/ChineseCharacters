@@ -1,3 +1,7 @@
 tests
 testANewContentHasNotToBeReviewedAfterSubmition
-	self deny: (SRSKnownContent new submitReview: true; hasToReview)
+	self
+		deny:
+			(SRSKnownContent new
+				submitReview: true withAnnouncer: nil;
+				hasToReview)

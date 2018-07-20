@@ -1,3 +1,0 @@
-initialization
-increase
-	level increase.

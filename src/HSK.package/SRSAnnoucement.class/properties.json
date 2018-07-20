@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 7/21/2018 01:32",
+	"super" : "Announcement",
+	"category" : "HSK-SRS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"oldLevel",
+		"oldDate",
+		"currentDate",
+		"levelObject"
+	],
+	"name" : "SRSAnnoucement",
+	"type" : "normal"
+}

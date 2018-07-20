@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "SantiagoBragagnolo 7/21/2018 01:34",
+	"super" : "SRSAnnoucement",
+	"category" : "HSK-SRS",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SRSLevelUp",
+	"type" : "normal"
+}

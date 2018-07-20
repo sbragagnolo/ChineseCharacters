@@ -10,8 +10,7 @@
 		"levelUp",
 		"max",
 		"levelupTimes",
-		"leveldownTimes",
-		"announcer"
+		"leveldownTimes"
 	],
 	"name" : "SRSKnowledgeLevel",
 	"type" : "normal"
