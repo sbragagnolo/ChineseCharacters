@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "Santiago 7/21/2018 16:53",
+	"super" : "Object",
+	"category" : "HSK-Excercises",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LZIStudyObjective",
+	"type" : "normal"
+}

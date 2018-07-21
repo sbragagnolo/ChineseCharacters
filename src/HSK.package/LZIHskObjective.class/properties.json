@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "HSK-SRS",
+	"super" : "LZIStudyObjective",
+	"category" : "HSK-Excercises",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SRCTestCase",
+	"name" : "LZIHskObjective",
 	"type" : "normal"
 }

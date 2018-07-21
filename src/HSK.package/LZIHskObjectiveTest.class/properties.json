@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "HSK-Excercises",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"objective"
+	],
+	"name" : "LZIHskObjectiveTest",
+	"type" : "normal"
+}

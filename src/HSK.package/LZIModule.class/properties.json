@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Excercises",
+	"classinstvars" : [
+		"instances"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"order"
+	],
+	"name" : "LZIModule",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 accessing
 module
-	^ module 
+	^ LZIModule module: module
