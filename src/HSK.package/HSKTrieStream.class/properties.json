@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
-	"category" : "HSK-Excercises",
+	"super" : "Object",
+	"category" : "HSK-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"subject"
+		"stream",
+		"trie"
 	],
-	"name" : "HSKReviewCharacterAssertionRule",
+	"name" : "HSKTrieStream",
 	"type" : "normal"
 }

@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "HSK-Excercises",
+	"super" : "HSKRootNode",
+	"category" : "HSK-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"tests"
+		"definitions",
+		"word"
 	],
-	"name" : "HSKTest",
+	"name" : "HSKTrieNode",
 	"type" : "normal"
 }

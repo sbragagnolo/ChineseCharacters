@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"character",
+		"next",
+		"node"
+	],
+	"name" : "HSKTrieEdge",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 accessing
 frequency
-	^ frequency ifNil: [ 800000 ]
+	^ frequency ifNil: [ 4000 ]
