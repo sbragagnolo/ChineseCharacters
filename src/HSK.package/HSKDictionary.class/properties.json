@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Core",
+	"classinstvars" : [
+		"singleton"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"trie"
+	],
+	"name" : "HSKDictionary",
+	"type" : "variable"
+}

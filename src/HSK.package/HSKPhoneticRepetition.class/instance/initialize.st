@@ -1,5 +1,5 @@
 rendering
 initialize
 	super initialize.
-	characters := HSKCharacter instances select: [ :i | i isRoot and: [ #(hsk1 hsk2) includes: i module ] ].
+	characters := HSKCharacter instances select: [ :i | i isRoot and: [ #(#hsk1 #hsk2) includes: i module name ] ].
 	position := 1.

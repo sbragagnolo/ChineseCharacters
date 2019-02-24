@@ -1,3 +1,3 @@
 testing
 detect: aCode
-	^ instances detect: [ :i | i simplified = aCode or: [ i traditional = aCode ] ]
+	^ instances detect: [ :i | i traditional = aCode or: [ i simplified = aCode ] ]
