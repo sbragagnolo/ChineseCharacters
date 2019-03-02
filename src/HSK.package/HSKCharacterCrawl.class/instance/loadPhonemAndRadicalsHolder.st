@@ -1,4 +1,4 @@
-as yet unclassified
+hsk
 loadPhonemAndRadicalsHolder
 	| by holders |
 	by := 18.

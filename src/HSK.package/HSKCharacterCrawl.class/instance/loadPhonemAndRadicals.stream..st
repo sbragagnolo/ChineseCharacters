@@ -1,4 +1,4 @@
-as yet unclassified
+hsk
 loadPhonemAndRadicals: caracter stream: aStream
 	| words subcontent |
 	aStream reset.

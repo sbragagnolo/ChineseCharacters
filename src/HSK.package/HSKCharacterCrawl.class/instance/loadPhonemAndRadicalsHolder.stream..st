@@ -1,4 +1,4 @@
-as yet unclassified
+hsk
 loadPhonemAndRadicalsHolder: caracter stream: aStream
 	| subcontent real |
 

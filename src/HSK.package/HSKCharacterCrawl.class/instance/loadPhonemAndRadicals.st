@@ -1,4 +1,4 @@
-as yet unclassified
+hsk
 loadPhonemAndRadicals
 	| by |
 	by := 30.
