@@ -14,4 +14,3 @@ loadFromCedict: aFileReference
 						add:
 							{traditional.
 							simplified} ] ] .
-		self halt.

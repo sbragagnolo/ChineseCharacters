@@ -4,6 +4,6 @@ detectOrCreateHolder: aCharacter
 		detect: [ :i | i simplified = aCharacter or: [ i traditional = aCharacter ] ]
 		ifNone: [ instances
 				add:
-					(HSKCaracterHolder new
+					(HSKCharacterHolder new
 						char: aCharacter;
 						yourself) ]

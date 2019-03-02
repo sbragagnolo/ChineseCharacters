@@ -3,7 +3,6 @@
 	"super" : "Object",
 	"category" : "HSK-Core",
 	"classinstvars" : [
-		"loadingRelated",
 		"instances"
 	],
 	"pools" : [ ],

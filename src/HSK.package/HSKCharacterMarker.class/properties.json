@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "HSKCaracterMarker",
+	"name" : "HSKCharacterMarker",
 	"type" : "normal"
 }

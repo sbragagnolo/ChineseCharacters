@@ -10,6 +10,6 @@
 	"instvars" : [
 		"trie"
 	],
-	"name" : "HSKDictionary",
+	"name" : "HSKDictionaryLoader",
 	"type" : "variable"
 }

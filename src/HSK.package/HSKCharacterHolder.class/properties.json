@@ -5,7 +5,10 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "HSKCaracterCrawl",
+	"instvars" : [
+		"char",
+		"pinyin"
+	],
+	"name" : "HSKCharacterHolder",
 	"type" : "normal"
 }

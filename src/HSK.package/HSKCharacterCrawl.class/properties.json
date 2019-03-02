@@ -2,13 +2,12 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "HSK-Crawling",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"loadingRelated"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"char",
-		"pinyin"
-	],
-	"name" : "HSKCaracterHolder",
+	"instvars" : [ ],
+	"name" : "HSKCharacterCrawl",
 	"type" : "normal"
 }
