@@ -3,6 +3,7 @@ submitReview: aBool at: aDateAndTime withAnnouncer: anAnnouncer
 	| currentLevel haveLeveledUp oldDate |
 	currentLevel := level level.
 	oldDate := lastReviewDate.
+	haveLeveledUp:= false.
 	aBool
 		ifTrue: [ haveLeveledUp := level increase ]
 		ifFalse: [ level decrease ].

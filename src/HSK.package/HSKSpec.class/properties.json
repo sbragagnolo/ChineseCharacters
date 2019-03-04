@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "HSK-Excercises",
+	"super" : "ComposablePresenter",
+	"category" : "HSK-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"subject",
-		"friendly",
-		"giveUps"
+		"menu",
+		"exercises"
 	],
-	"name" : "HSKPhoneticTest",
+	"name" : "HSKSpec",
 	"type" : "normal"
 }

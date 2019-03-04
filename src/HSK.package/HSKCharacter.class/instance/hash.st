@@ -1,3 +1,3 @@
 accessing
 hash
-	^ traditional hash
+	^ self traditional hash bitXor: self definition hash

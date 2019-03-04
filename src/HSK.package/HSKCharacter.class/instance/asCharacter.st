@@ -1,0 +1,3 @@
+compare
+asCharacter
+	^ self traditional 

@@ -1,3 +1,0 @@
-accessing
-definitions
-	self shouldBeImplemented.

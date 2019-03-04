@@ -1,4 +1,4 @@
 asserting
 friendlyAssert: aString
-	^ (subject pinyin collect: [ :pinyin | pinyin reject: [ :c | c isDigit ] ])
+	^ (subject knowledge pinyin collect: [ :pinyin | pinyin reject: [ :c | c isDigit ] ])
 		includes: aString

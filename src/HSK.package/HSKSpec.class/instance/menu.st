@@ -1,0 +1,3 @@
+initialization
+menu
+	^ menu

@@ -1,3 +1,3 @@
-accessing
+printing
 module
-	^ (self collect:#module ) max 
+	^ (self collect: [ :c | c module ]) max

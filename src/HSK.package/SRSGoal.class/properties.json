@@ -1,17 +1,16 @@
 {
-	"commentStamp" : "SantiagoBragagnolo 7/21/2018 00:44",
+	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "HSK-SRS",
 	"classinstvars" : [
-		"knowledge"
+		"xiaoWangZi"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"knowledge",
-		"level",
-		"lastReviewDate"
+		"words",
+		"characters"
 	],
-	"name" : "SRSKnownContent",
+	"name" : "SRSGoal",
 	"type" : "normal"
 }

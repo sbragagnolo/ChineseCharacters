@@ -1,0 +1,3 @@
+rehash
+rehashEdges
+	edges rehash
