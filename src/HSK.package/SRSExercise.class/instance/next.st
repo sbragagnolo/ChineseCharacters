@@ -1,5 +1,5 @@
 initialization
 next
 	^ current := HSKPhoneticTest new
-		subject: (SRSKnownContent for: stream next);
+		subject: stream next;
 		yourself

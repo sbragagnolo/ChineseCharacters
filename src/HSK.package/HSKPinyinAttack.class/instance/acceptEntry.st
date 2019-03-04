@@ -9,7 +9,7 @@ acceptEntry
 			((self model current
 				beFriendly;
 				assertWith: pinyin text)
-				ifTrue: [ 'OK!' ]
-				ifFalse: [ 'Wrongg!' ]), self model current level asString.
+				ifTrue: [ 'Right!' ]
+				ifFalse: [ 'Wrongg!' ]),  'The expected pinyin was ', self model current subject knowledge pinyin asArray asString.
 	
 	self privateNext

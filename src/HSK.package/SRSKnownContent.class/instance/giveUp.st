@@ -1,3 +1,3 @@
 actions
 giveUp
-	self submitReview: false withAnnouncer: nil
+	self submitReview: false 

@@ -3,5 +3,5 @@ testANewContentHasNotToBeReviewedAfterSubmition
 	self
 		deny:
 			(SRSKnownContent new
-				submitReview: true withAnnouncer: nil;
+				submitReview: true ;
 				hasToReview)

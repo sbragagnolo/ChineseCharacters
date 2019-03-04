@@ -2,16 +2,16 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "HSK-SRS",
-	"classinstvars" : [ ],
+	"classinstvars" : [
+		"current"
+	],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"goal",
-		"amount",
-		"stream",
-		"current",
-		"session"
+		"knowledge",
+		"announcer",
+		"goal"
 	],
-	"name" : "SRSExercise",
+	"name" : "SRSSession",
 	"type" : "normal"
 }

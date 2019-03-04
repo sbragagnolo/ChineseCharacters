@@ -1,3 +1,4 @@
 initialization
 hasToReviewAt: anActualDate
-	^ level hasToReview: anActualDate - lastReviewDate
+	^ self isUnlocked
+		and: [ level hasToReview: anActualDate - lastReviewDate ]

@@ -2,15 +2,15 @@
 	"commentStamp" : "SantiagoBragagnolo 7/21/2018 00:44",
 	"super" : "Object",
 	"category" : "HSK-SRS",
-	"classinstvars" : [
-		"knowledge"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"knowledge",
 		"level",
-		"lastReviewDate"
+		"lastReviewDate",
+		"announcer",
+		"session"
 	],
 	"name" : "SRSKnownContent",
 	"type" : "normal"

@@ -2,14 +2,13 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "HSK-SRS",
-	"classinstvars" : [
-		"xiaoWangZi"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"words",
-		"characters"
+		"characters",
+		"session"
 	],
 	"name" : "SRSGoal",
 	"type" : "normal"
