@@ -1,5 +1,6 @@
 initialization
 initialize
 	super initialize .
-	level := SRSKnowledgeLevel zero. 
+	skills := Dictionary new.
 	lastReviewDate := DateAndTime new.
+	locked := true

@@ -1,1 +1,0 @@
-The level is the reification of the level of knowledge. It allows to define batches of knowledge per level.  

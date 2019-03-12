@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposablePresenterWithModel",
+	"category" : "HSK-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"word",
+		"pinyin",
+		"ok",
+		"hint",
+		"giveup",
+		"meanings",
+		"status",
+		"inspectChar",
+		"exercise"
+	],
+	"name" : "HSKPinyinReminder",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+initialization
+entry
+	^ entry

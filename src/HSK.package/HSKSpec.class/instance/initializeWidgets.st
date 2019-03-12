@@ -9,4 +9,6 @@ initializeWidgets
 						icon: (self iconNamed: #openIcon);
 						subMenu: self subMenu ] ].
 	exercises := self newNotebook.
-	self openPinyinSession
+	self openPinyinReminder. 
+	self openPinyinAttack.
+	

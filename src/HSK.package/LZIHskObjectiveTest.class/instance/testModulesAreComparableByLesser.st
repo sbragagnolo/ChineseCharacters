@@ -1,3 +1,3 @@
 initialization
 testModulesAreComparableByLesser
-	self assert: LZIModule hsk1 < LZIModule hsk2
+	self assert: HSKModule hsk1 < HSKModule hsk2

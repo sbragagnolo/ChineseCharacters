@@ -22,7 +22,7 @@ treatCharacter: traditional and: simplified fromCedictLine: line
 	line upTo: $[.
 	pinyin := line upTo: $].
 	char pinyin: (',' split: pinyin trimBoth).
-	char mark: LZIModule dictionary.
+	char mark: HSKModule dictionary.
 	line upTo: $/.
 	char
 		definition: ((('/' split: line upToEnd) collect: #trimBoth) reject: #isEmpty)

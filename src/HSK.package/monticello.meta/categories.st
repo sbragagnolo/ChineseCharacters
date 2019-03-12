@@ -1,9 +1,7 @@
 SystemOrganization addCategory: #HSK!
-SystemOrganization addCategory: 'HSK-Core'!
-SystemOrganization addCategory: 'HSK-Crawling'!
-SystemOrganization addCategory: 'HSK-Excercises'!
-SystemOrganization addCategory: 'HSK-Persistence'!
-SystemOrganization addCategory: 'HSK-SRS'!
-SystemOrganization addCategory: 'HSK-Seaside'!
-SystemOrganization addCategory: 'HSK-Seaside-Model'!
-SystemOrganization addCategory: 'HSK-Seaside-REST'!
+SystemOrganization addCategory: #'HSK-Core'!
+SystemOrganization addCategory: #'HSK-Crawling'!
+SystemOrganization addCategory: #'HSK-Excercises'!
+SystemOrganization addCategory: #'HSK-Manifest'!
+SystemOrganization addCategory: #'HSK-SRS'!
+SystemOrganization addCategory: #'HSK-Spec'!

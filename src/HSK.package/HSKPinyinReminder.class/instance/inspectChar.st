@@ -1,0 +1,3 @@
+actions
+inspectChar
+	^ inspectChar

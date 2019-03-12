@@ -6,13 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"word",
-		"pinyin",
-		"ok",
-		"hint",
-		"giveup",
-		"meanings",
-		"status"
+		"viewport",
+		"entry"
 	],
 	"name" : "HSKPinyinAttack",
 	"type" : "normal"

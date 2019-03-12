@@ -1,3 +1,3 @@
-accessing
-unlock 
-	level unlock
+unloc
+unlock
+	locked := false

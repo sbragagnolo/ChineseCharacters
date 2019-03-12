@@ -4,5 +4,5 @@ assertWith: aString
 	rslt :=  friendly
 		ifTrue: [ self friendlyAssert: aString ]
 		ifFalse: [ subject knowledge pinyin  includes: aString ].
-	subject submitReview: rslt.
+	subject submitReview: rslt on: #phonetic.
 	^ rslt.

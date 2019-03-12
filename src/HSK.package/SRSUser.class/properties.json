@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-SRS",
+	"classinstvars" : [
+		"current"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"knowledge",
+		"announcer",
+		"goal",
+		"goals"
+	],
+	"name" : "SRSUser",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 tests
 testANewContentHasToBeReviewed
-	self assert: SRSKnownContent new hasToReview
+	self assert: (SRSKnownContent new unlock; hasToReview: #writing)

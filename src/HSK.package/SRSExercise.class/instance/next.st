@@ -1,5 +1,3 @@
-initialization
+accessing
 next
-	^ current := HSKPhoneticTest new
-		subject: stream next;
-		yourself
+	self subclassResponsibility

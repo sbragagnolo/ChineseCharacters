@@ -1,0 +1,4 @@
+initialization
+skill
+
+	^ self subclassResponsibility 

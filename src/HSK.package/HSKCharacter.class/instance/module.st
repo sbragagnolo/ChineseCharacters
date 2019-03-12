@@ -1,3 +1,3 @@
 accessing
 module
-	^ LZIModule module: module 
+	^ HSKModule module: module 

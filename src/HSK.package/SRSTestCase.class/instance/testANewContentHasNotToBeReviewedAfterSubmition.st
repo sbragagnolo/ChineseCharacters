@@ -3,5 +3,6 @@ testANewContentHasNotToBeReviewedAfterSubmition
 	self
 		deny:
 			(SRSKnownContent new
-				submitReview: true ;
-				hasToReview)
+				unlock;
+				submitReview: true on: #whatever;
+				hasToReview: #whatever)

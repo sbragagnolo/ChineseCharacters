@@ -7,10 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"knowledge",
-		"level",
 		"lastReviewDate",
-		"announcer",
-		"session"
+		"session",
+		"locked",
+		"skills"
 	],
 	"name" : "SRSKnownContent",
 	"type" : "normal"

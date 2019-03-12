@@ -1,0 +1,1 @@
+This kind of exercise is related to the comparision of string, pinyin with the related character.

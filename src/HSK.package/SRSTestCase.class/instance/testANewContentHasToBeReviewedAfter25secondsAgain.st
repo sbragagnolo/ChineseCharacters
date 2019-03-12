@@ -2,6 +2,7 @@ tests
 testANewContentHasToBeReviewedAfter25secondsAgain
 	| content |
 	content := SRSKnownContent new.
-	content submitReview: true.
-	self deny: (content hasToReviewAt: DateAndTime now).
-	self assert: (content hasToReviewAt: DateAndTime now + 26 seconds)
+	content unlock.
+	content submitReview: true on:#writing.
+	self deny: (content  hasToReview:#writing at:  DateAndTime now).
+	self assert: (content  hasToReview:#writing at:  DateAndTime now + 26 seconds)

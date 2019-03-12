@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "Santiago 7/22/2018 21:10",
+	"super" : "Object",
+	"category" : "HSK-Excercises",
+	"classinstvars" : [
+		"instances"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"order"
+	],
+	"name" : "HSKModule",
+	"type" : "normal"
+}

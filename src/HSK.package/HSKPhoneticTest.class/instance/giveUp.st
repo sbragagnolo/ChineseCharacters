@@ -1,4 +1,3 @@
 givingup
 giveUp
-	self beFriendly.
-	subject giveUp.
+	subject giveUp: #phonetic.

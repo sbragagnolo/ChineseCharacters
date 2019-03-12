@@ -8,7 +8,7 @@ subMenu
 						name: 'Pinyin Attack';
 						icon: (self iconNamed: #openIcon);
 						shortcut: $o meta;
-						action: [ self openPinyinSession ] ].
+						action: [ self openPinyinReminder ] ].
 			group
 				addItem: [ :item | 
 					item

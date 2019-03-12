@@ -1,3 +1,3 @@
 initialization
 testModulesAreComparableByEquals
-	self assert: LZIModule hsk1 equals: LZIModule hsk1
+	self assert: HSKModule hsk1 equals: HSKModule hsk1

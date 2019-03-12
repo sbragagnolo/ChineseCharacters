@@ -1,0 +1,3 @@
+initialization
+inspectCurrentChar
+	exercise current inspect

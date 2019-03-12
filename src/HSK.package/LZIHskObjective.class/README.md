@@ -1,1 +1,0 @@
-This objective reflects the HSK base of learning 
