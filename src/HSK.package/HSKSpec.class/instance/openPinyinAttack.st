@@ -2,7 +2,6 @@ initialization
 openPinyinAttack
 	| pi pa |
 	pa := self instantiate: HSKPinyinAttack.
-	pa inspect.
 	pa model: self model.
 	pi := NotebookPage
 		title: 'Pinyin Attack'

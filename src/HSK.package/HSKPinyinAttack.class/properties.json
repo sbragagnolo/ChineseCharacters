@@ -8,7 +8,10 @@
 	"instvars" : [
 		"viewport",
 		"entry",
-		"tick"
+		"tick",
+		"timeline",
+		"animating",
+		"process"
 	],
 	"name" : "HSKPinyinAttack",
 	"type" : "normal"
