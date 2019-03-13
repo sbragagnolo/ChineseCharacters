@@ -1,15 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenterWithModel",
+	"super" : "Object",
 	"category" : "HSK-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"viewport",
-		"entry",
-		"tick"
+		"content"
 	],
-	"name" : "HSKPinyinAttack",
+	"name" : "HSKDrawableContent",
 	"type" : "normal"
 }
