@@ -1,7 +1,6 @@
 initialization
 initializeWidgets
 	entry := self newTextInput.
-	viewport := Morph new
-		extent: 900 @ 500;
-		color: Color white;
-		asSpecAdapter
+	viewport := self instantiate: AthensAnimatedPresenter.
+	viewport surfaceExtent: 900 @ 500.
+	viewport drawBlock: [ : canvas | self drawOn: canvas ]
