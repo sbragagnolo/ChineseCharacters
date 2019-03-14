@@ -1,0 +1,1 @@
+I represent a category o fa character. Knowing the block to which it belongs.
