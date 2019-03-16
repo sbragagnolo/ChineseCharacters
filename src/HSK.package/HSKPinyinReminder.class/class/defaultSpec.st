@@ -5,9 +5,7 @@ defaultSpec
 			c
 				newRow: #word;
 				newRow: #meanings;
-				addSplitter;
 				newRow: #pinyin height: self defaultFont height + 10;
-				addSplitter;
 				newRow: [ :r | 
 					r
 						add: #ok;

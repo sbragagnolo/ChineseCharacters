@@ -9,6 +9,6 @@ acceptEntry
 			((exercise current
 				assertWith: pinyin text)
 				ifTrue: [ 'Right!' ]
-				ifFalse: [ 'Wrongg!' ]),  'The expected pinyin was ', self model current subject knowledge pinyin asArray asString.
+				ifFalse: [ 'Wrongg!' ]),  'The expected pinyin was ', exercise current subject knowledge pinyin asArray asString.
 	
 	self privateNext

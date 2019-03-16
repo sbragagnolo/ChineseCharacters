@@ -1,11 +1,12 @@
 initialization
 openPinyinAttack
-	| pi pa |
-	pa := self instantiate: HSKPinyinAttack.
-	pa model: self model.
+	| pi  |
+	attack := self instantiate: HSKPinyinAttack.
+	attack model: self model.
 	pi := NotebookPage
 		title: 'Pinyin Attack'
 		icon: (self iconNamed: #smallPaint)
-		provider: [ pa ].
+		provider: [ attack ].
 	exercises addPage: pi.
 	exercises updatePageContent: pi.
+	

@@ -1,8 +1,5 @@
 specs
 defaultSpec
 	^ SpecLayout composed
-		newColumn: [ :c | 
-			c
-				add: #menu height: self toolbarHeight;
-				add: #exercises ];
+		newColumn: [ :c | c add: #exercises ];
 		yourself

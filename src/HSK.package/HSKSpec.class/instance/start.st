@@ -1,0 +1,3 @@
+initialization
+start
+	attack start.
