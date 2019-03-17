@@ -1,3 +1,3 @@
 initialization
 font
-	^ LogicalFont familyName: 'PingFang TC' pointSize: 30
+	^ font ifNil: [ LogicalFont familyName: 'PingFang TC' pointSize: 30 ]

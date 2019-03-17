@@ -1,3 +1,3 @@
 accesing
 definition
-	^ self traditional
+	^ {self traditional}

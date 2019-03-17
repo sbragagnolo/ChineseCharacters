@@ -3,7 +3,7 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ :c | 
 			c
-				newRow: #word;
+				newRow: #word  height: 100;
 				newRow: #meanings;
 				newRow: #pinyin height: self defaultFont height + 10;
 				newRow: [ :r | 

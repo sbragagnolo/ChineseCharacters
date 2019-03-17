@@ -1,6 +1,9 @@
 initialization
 initializeWidgets
-	word := self newLabel.
+	word :=  self instantiate: AthensStaticPresenter.
+	word surfaceExtent: 100@100.
+	word drawBlock: [ : canvas | self drawCurrentWordOn: canvas.  ].
+	
 	meanings := self newList.
 	pinyin := self newTextInput.
 	pinyin autoAccept: true.

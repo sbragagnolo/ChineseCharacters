@@ -1,8 +1,8 @@
 accessing
 detectOrCreateHolder: aCharacter
-	^ self 
+	^ self
 		detect: [ :i | i simplified = aCharacter or: [ i traditional = aCharacter ] ]
-		ifNone: [ instances
+		ifNone: [ hskCharacters
 				add:
 					(HSKCharacterHolder new
 						char: aCharacter;
