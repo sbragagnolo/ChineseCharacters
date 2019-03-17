@@ -1,3 +1,3 @@
 accessing
 detect: aBlock ifNone: aFallbackblock
-	^ self  detect: aBlock ifNone: aFallbackblock
+	^ hskCharacters detect: aBlock ifNone: aFallbackblock
