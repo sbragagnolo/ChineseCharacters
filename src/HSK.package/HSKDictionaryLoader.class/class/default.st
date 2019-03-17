@@ -1,3 +1,3 @@
 instantiation
 default
-	^ singleton ifNil: [  singleton := self new  ]
+	^ default ifNil: [  default := self new  ]

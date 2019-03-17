@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK-Core",
+	"classinstvars" : [
+		"default"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"instances",
+		"default",
+		"hskCharacters"
+	],
+	"name" : "HSKCharacterProvider",
+	"type" : "normal"
+}

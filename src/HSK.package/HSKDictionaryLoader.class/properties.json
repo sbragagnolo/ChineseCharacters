@@ -3,7 +3,7 @@
 	"super" : "Object",
 	"category" : "HSK-Core",
 	"classinstvars" : [
-		"singleton"
+		"default"
 	],
 	"pools" : [ ],
 	"classvars" : [ ],

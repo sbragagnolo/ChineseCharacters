@@ -2,9 +2,7 @@
 	"commentStamp" : "",
 	"super" : "Object",
 	"category" : "HSK-Core",
-	"classinstvars" : [
-		"instances"
-	],
+	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [

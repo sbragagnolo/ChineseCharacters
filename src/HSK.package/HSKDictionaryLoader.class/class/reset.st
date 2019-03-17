@@ -1,3 +1,3 @@
 as yet unclassified
 reset
-	singleton := nil
+	default := nil
