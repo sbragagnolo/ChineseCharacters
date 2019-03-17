@@ -1,8 +1,8 @@
 asserting
 assertWith: aString
-	| rslt | 
-	rslt :=  friendly
+	| rslt |
+	rslt := friendly
 		ifTrue: [ self friendlyAssert: aString ]
-		ifFalse: [ subject knowledge pinyin  includes: aString ].
+		ifFalse: [ subject knowledge asHSKString pinyin includes: aString ].
 	subject submitReview: rslt on: #phonetic.
-	^ rslt.
+	^ rslt

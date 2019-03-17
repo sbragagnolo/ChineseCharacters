@@ -10,4 +10,4 @@ drawOn: canvas at: aTick
 		drawShape:
 			(canvas
 				createPath:
-					[ :builder | builder string: content traditional asString font: self font ])
+					[ :builder | builder string: content asHSKString traditionalString font: self font ])

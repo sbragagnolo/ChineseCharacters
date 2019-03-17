@@ -1,14 +1,12 @@
 initialization
 acceptEntry
-
-	pinyin forceText
+	pinyin text
 		ifEmpty: [ status label: 'Insert a pinyin before accepting'.
 			^ self ].
 	status
 		label:
-			((exercise current
-				assertWith: pinyin forceText)
+			((exercise current assertWith: pinyin text)
 				ifTrue: [ 'Right!' ]
-				ifFalse: [ 'Wrongg!' ]),  'The expected pinyin was ', exercise current subject knowledge pinyin asArray asString.
-	
+				ifFalse: [ 'Wrongg!' ]) , 'The expected pinyin was '
+				, exercise current subject knowledge asHSKString pinyin  asArray asString.
 	self privateNext

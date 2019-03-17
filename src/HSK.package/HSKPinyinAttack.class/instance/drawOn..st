@@ -7,6 +7,6 @@ drawOn: aCanvas
 					canvas pathTransform loadIdentity.
 					canvas surface clear: Color white.
 					HSKDrawableContent new
-						content: (HSKCharacter detect: $好);
+						content: '好';
 						drawOn: canvas at: (tick ifNil: [ 1 ]) ] ]
 		ifNil: [ self inform: 'Canvas is nil! ' ]

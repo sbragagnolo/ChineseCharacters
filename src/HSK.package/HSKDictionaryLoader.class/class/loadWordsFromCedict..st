@@ -7,13 +7,13 @@ loadWordsFromCedict: aFileReference
 		whileFalse: [ line := self nextParseableLine: stream.
 			traditional := line upTo: Character space.
 			simplified := line upTo: Character space.
-			[ line := line upToEnd readStream.
+			 line := line upToEnd readStream.
 			self loadWord: traditional fromLine: line.
 			traditional = simplified
 				ifFalse: [ line reset.
-					self loadWord: simplified fromLine: line ] ]
+					self loadWord: simplified fromLine: line ] "]
 				on: Error
 				do: [ failures
 						add:
 							{traditional.
-							simplified} ] ]
+							simplified} ]" ]

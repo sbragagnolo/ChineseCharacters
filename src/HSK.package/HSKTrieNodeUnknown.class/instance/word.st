@@ -1,0 +1,3 @@
+accessing
+word
+	^ char asString

@@ -1,3 +1,3 @@
 accessing
 meanings
-	^ subject knowledge definition
+	^ subject knowledge asHSKString definition

@@ -5,16 +5,17 @@ next
 	path := OrderedCollection new.
 	[ stream atEnd ]
 		whileFalse: [ | edge |
-			path add: node. 
+			path add: node.
 			edge := node
 				detectEdgeFor: stream next
-				ifNotFound: [ stream back.
-					node == trie root
-						ifTrue: [ node :=  HSKTrieNodeUnknown new char: stream next; yourself  ]
-						ifFalse: [ 
-							[  node word isNil and:[ path isNotEmpty ] ] whileTrue: [ stream back. node := path removeLast ].
-							
-						] .
+				ifNotFound: [ node == trie root
+						ifTrue: [ stream back.
+							node := HSKTrieNodeUnknown new
+								char: stream next;
+								yourself ]
+						ifFalse: [ [ node word isNil and: [ path allButFirst isNotEmpty ] ]
+								whileTrue: [ stream back.
+									node := path removeLast ] ].
 					^ node ].
 			node := edge node ].
 	^ node
