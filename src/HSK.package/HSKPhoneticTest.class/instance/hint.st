@@ -1,3 +1,3 @@
 hinting
 hint
-	^ ' it sounds like ', (',' join:( ( HSKCharacter instances select: [  : p | p pinyin = subject knowledge pinyin  ]) collect:#traditional))
+	^ ' it sounds like ', (',' join:( ( HSKCharacterProvider default select: [  : p | p pinyin = subject knowledge asHSKString pinyin  ]) collect:#traditional))
