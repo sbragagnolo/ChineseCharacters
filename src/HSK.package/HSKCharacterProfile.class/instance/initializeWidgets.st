@@ -5,6 +5,7 @@ initializeWidgets
 	character drawBlock: [ :aCanvas | self drawCharacterOn: aCanvas ].
 	date := self newLabel.
 	level := self newSlider.
+	level value: 500.
 	level
 		min: 1;
 		max: 1000;
