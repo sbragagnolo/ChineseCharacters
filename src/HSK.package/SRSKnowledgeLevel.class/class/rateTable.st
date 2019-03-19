@@ -1,6 +1,6 @@
 instance creation simple
 rateTable
-	^ {
+	^ { 
 	0 seconds.
 	25 seconds.
 	2 minutes.
@@ -12,4 +12,4 @@ rateTable
 	25 days.
 	120 days.
 	730 days.
-	0 seconds}
+	1000 days }
