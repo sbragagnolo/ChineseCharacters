@@ -4,5 +4,4 @@ defaultSpec
 		add:
 			(SpecBoxLayout newHorizontal
 				add: #character;
-				add: #level);
-		add: #date
+				add: #level)

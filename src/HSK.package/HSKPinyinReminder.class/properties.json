@@ -14,7 +14,9 @@
 		"meanings",
 		"status",
 		"inspectChar",
-		"exercise"
+		"exercise",
+		"todo",
+		"done"
 	],
 	"name" : "HSKPinyinReminder",
 	"type" : "normal"

@@ -1,9 +1,8 @@
 initialization
 initializeWidgets
-	word :=  self instantiate: AthensStaticPresenter.
-	word surfaceExtent: 100@100.
-	word drawBlock: [ : canvas | self drawCurrentWordOn: canvas.  ].
-	
+	word := self instantiate: AthensStaticPresenter.
+	word surfaceExtent: 100 @ 100.
+	word drawBlock: [ :canvas | self drawCurrentWordOn: canvas ].
 	meanings := self newList.
 	pinyin := self newTextInput.
 	pinyin autoAccept: true.
@@ -19,4 +18,6 @@ initializeWidgets
 	inspectChar action: [ self inspectCurrentChar ].
 	ok action: [ self acceptEntry ].
 	hint action: [ self hintNeeded ].
-	giveup action: [ self giveUp ]
+	giveup action: [ self giveUp ].
+	todo := self instantiate: ComponentListPresenter.
+	done := self instantiate: ComponentListPresenter

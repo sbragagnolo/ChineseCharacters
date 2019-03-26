@@ -1,6 +1,6 @@
 initialization
 start
-	(animating ifNil: [ animating := false  ])
+	(animating ifNil: [ animating ])
 		ifTrue: [ ^ self error: 'already working' ].
 	animating := true.
 	process := [ [ animating ]
