@@ -2,4 +2,4 @@ initialization
 drawCurrentWordOn: canvas
 	HSKDrawableContent new
 		content: exercise current subject  knowledge asHSKString asString;
-		drawOn: canvas at: 1
+		drawOn: canvas at: 2
