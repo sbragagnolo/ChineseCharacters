@@ -1,7 +1,7 @@
 accessing
 todoItems
 	^ todoItems
-		ifNil: [ todoItems := exercise todo
+		ifNil: [ todoItems := exercise todo reverse
 				collect: [ :c | 
 					(self instantiate: HSKCharacterProfile)
 						model: c;

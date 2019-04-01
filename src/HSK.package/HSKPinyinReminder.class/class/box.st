@@ -3,35 +3,32 @@ box
 	^ SpecBoxLayout newVertical
 		add:
 			(SpecBoxLayout newHorizontal
-				add: #todo;
+				add: #todo withConstraints: [: constraints | constraints 
+				expand: false;
+				fill: true; 
+				padding: 10; width: 100 ];
 				add:
 					(SpecBoxLayout newVertical
-						add: #word" (SpecBoxLayout newHorizontal add: #word  expand: true fill: true padding: 150 ; borderWidth: 30;yourself)"; 
-						add:  (SpecBoxLayout newHorizontal add: #meanings  expand: true fill: true padding: 200 ; borderWidth: 30;yourself); 
-						add: (SpecBoxLayout newHorizontal add: #pinyin  expand: true fill: true padding: 50 ; borderWidth: 30;yourself);
+						add: (SpecBoxLayout newHorizontal add: #word  expand: true fill: true padding: 0; 
+															 add: (SpecBoxLayout newVertical add: #meanings  expand: true fill: true padding: 0; add: #status ; yourself)
+							  ); 
+						add: (SpecBoxLayout newHorizontal add: #pinyin  expand: true fill: true padding: 0 ; borderWidth: 0;yourself)  withConstraints: [ : constraints | constraints expand: false; fill: true; height: 50] ;
 						yourself);
-				add: #done;
-				yourself);
+				add: #done withConstraints: [: constraints | constraints 
+				expand: false;
+				fill: true; 
+				padding: 10; width: 100; height: 600 ];
+				yourself)
+				withConstraints: [: constraints | constraints 
+				expand: false;
+				fill: true; 
+				padding: 10; width: 200 ];
+			
 		add:
 			(SpecBoxLayout newHorizontal
 				add: #ok;
 				add: #hint;
 				add: #giveup;
 				add: #inspectChar;
-				yourself) expand: false fill: true padding: 30;
-		add: #status
-	"
-	^ SpecLayout composed
-		newColumn: [ :c | 
-			c
-				newRow: #word  height: 100;
-				newRow: #meanings;
-				newRow: #pinyin height: self defaultFont height + 10;
-				newRow: [ :r | 
-					r
-						add: #ok;
-						add: #hint;
-						add: #giveup;
-						add: #inspectChar ]
-					height: self toolbarHeight;
-				newRow: #status height: self defaultFont height + 10 ]"
+				yourself) expand: false fill: true padding: 30
+		

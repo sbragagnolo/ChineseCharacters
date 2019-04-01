@@ -1,3 +1,3 @@
 specs
 defaultSpec
-	^ self grid
+	^ self box

@@ -1,8 +1,8 @@
 initialization
 initializeWidgets
 	word := self instantiate: AthensStaticPresenter.
-	word surfaceExtent: 300 @ 300.
-	word drawBlock: [ :canvas | self drawCurrentWordOn: canvas ].
+	word surfaceExtent: 100 @ 100.
+	word drawBlock: [ :canvas  : box| self drawCurrentWordOn: canvas box: box ].
 	meanings := self newText.
 	pinyin := self newTextInput.
 	pinyin autoAccept: true.
