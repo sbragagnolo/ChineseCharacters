@@ -1,4 +1,5 @@
 initialization
-model: aChar
-	super model: aChar.
-	level value: 200.
+model: aKnowledge
+	super model: aKnowledge.
+	character label: aKnowledge knowledge asString.
+	level value: (aKnowledge skill: skill) level.

@@ -16,7 +16,9 @@
 		"inspectChar",
 		"exercise",
 		"todo",
-		"done"
+		"done",
+		"todoItems",
+		"doneItems"
 	],
 	"name" : "HSKPinyinReminder",
 	"type" : "normal"

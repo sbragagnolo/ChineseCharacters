@@ -4,7 +4,7 @@ acceptEntry
 		ifEmpty: [ status label: 'Insert a pinyin before accepting'.
 			^ self ].
 	status
-		label:
+		text:
 			((exercise current assertWith: pinyin text)
 				ifTrue: [ 'Right!' ]
 				ifFalse: [ 'Wrongg!' ]) , 'The expected pinyin was '

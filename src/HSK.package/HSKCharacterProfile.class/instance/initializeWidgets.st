@@ -1,8 +1,9 @@
 initialization
 initializeWidgets
-	character := self instantiate: AthensStaticPresenter.
+	"character := self instantiate: AthensStaticPresenter.
 	character surfaceExtent: 50 @ 50.
-	character drawBlock: [ :aCanvas | self drawCharacterOn: aCanvas ].
+	character drawBlock: [ :aCanvas | self drawCharacterOn: aCanvas ]."
+	character := self newLabel.
 	level := self newSlider.
 	level
 		min: 1;

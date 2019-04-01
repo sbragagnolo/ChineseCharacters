@@ -8,5 +8,7 @@ drawOn: aCanvas
 					canvas surface clear: Color white.
 					HSKDrawableContent new
 						content: '好';
-						drawOn: canvas at: (tick ifNil: [ 1 ]) ] ]
+						drawOn: canvas
+							at: 20 @ (tick ifNil: [ 1 ])
+							font: (LogicalFont familyName: 'PingFang TC' pointSize: 30) ] ]
 		ifNil: [ self inform: 'Canvas is nil! ' ]

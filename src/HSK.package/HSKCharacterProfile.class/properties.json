@@ -8,7 +8,8 @@
 	"instvars" : [
 		"character",
 		"level",
-		"date"
+		"date",
+		"skill"
 	],
 	"name" : "HSKCharacterProfile",
 	"type" : "normal"

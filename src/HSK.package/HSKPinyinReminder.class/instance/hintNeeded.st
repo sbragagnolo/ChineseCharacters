@@ -1,3 +1,3 @@
 actions
 hintNeeded
-	status label: exercise current hint
+	status text: exercise current hint

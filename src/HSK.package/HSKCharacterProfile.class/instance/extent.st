@@ -1,3 +1,4 @@
 initialization
 extent
-	^ 364 @ 62
+	^super extent
+	"^ 364 @ 62"
