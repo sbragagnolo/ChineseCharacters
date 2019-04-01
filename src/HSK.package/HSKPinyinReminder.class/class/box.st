@@ -6,18 +6,19 @@ box
 				add: #todo withConstraints: [: constraints | constraints 
 				expand: false;
 				fill: true; 
+				 height: 600;
 				padding: 10; width: 100 ];
 				add:
 					(SpecBoxLayout newVertical
 						add: (SpecBoxLayout newHorizontal add: #word  expand: true fill: true padding: 0; 
-															 add: (SpecBoxLayout newVertical add: #meanings  expand: true fill: true padding: 0; add: #status ; yourself)
+															 add: (SpecBoxLayout newVertical add: #meanings  expand: true fill: true padding: 0; add: #status withConstraints: [ : constraints | constraints expand: false; fill: true; height: 100]; yourself)
 							  ); 
-						add: (SpecBoxLayout newHorizontal add: #pinyin  expand: true fill: true padding: 0 ; borderWidth: 0;yourself)  withConstraints: [ : constraints | constraints expand: false; fill: true; height: 50] ;
+						add: (SpecBoxLayout newHorizontal add: #pinyin  expand: true fill: true padding: 0 ;yourself)  withConstraints: [ : constraints | constraints expand: false; fill: true; height: 50] ;
 						yourself);
 				add: #done withConstraints: [: constraints | constraints 
 				expand: false;
-				fill: true; 
-				padding: 10; width: 100; height: 600 ];
+				fill: false; 
+				padding: 10; width: 100 ];
 				yourself)
 				withConstraints: [: constraints | constraints 
 				expand: false;
