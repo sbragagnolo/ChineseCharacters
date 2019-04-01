@@ -9,7 +9,9 @@
 		"character",
 		"level",
 		"date",
-		"skill"
+		"skill",
+		"result",
+		"resultSymbol"
 	],
 	"name" : "HSKCharacterProfile",
 	"type" : "normal"

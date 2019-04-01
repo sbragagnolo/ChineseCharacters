@@ -5,6 +5,8 @@ initializeWidgets
 	character drawBlock: [ :aCanvas : box  | self drawCharacterOn: aCanvas box: box ]."
 	character := self newLabel.
 	level := self newLabel.
+	result := self newLabel.
+	resultSymbol := ''.
 	"level
 		min: 1;
 		max: SRSKnowledgeLevel rateValues last;

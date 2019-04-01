@@ -1,7 +1,10 @@
 accessing
 doneItems
 	^ doneItems
-		ifNil: [ doneItems := exercise done
+		ifNil: [ current := (self instantiate: HSKCharacterProfile)
+				model: exercise current subject ;
+				yourself.
+			doneItems := exercise done
 				collect: [ :c | 
 					(self instantiate: HSKCharacterProfile)
 						model: c;
