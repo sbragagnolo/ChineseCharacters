@@ -1,7 +1,1 @@
-SystemOrganization addCategory: #HSK!
-SystemOrganization addCategory: #'HSK-Core'!
-SystemOrganization addCategory: #'HSK-Crawling'!
-SystemOrganization addCategory: #'HSK-Excercises'!
-SystemOrganization addCategory: #'HSK-Manifest'!
-SystemOrganization addCategory: #'HSK-SRS'!
-SystemOrganization addCategory: #'HSK-Spec'!
+self packageOrganizer ensurePackage: #HSK withTags: #(#Core #Crawling #Excercises #Manifest #SRS #Spec)!

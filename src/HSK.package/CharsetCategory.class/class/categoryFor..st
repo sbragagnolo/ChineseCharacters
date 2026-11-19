@@ -1,4 +1,4 @@
-*HSK
+parsing
 categoryFor: aChar
 	self
 		assert: (CharsetCategory latin1 first interval includes: aChar codePoint)

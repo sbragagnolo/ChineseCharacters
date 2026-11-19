@@ -8,9 +8,9 @@ next
 			path add: node.
 			edge := node
 				detectEdgeFor: stream next
-				ifNotFound: [ node == trie root
-						ifTrue: [ stream back.
-							node := HSKTrieNodeUnknown new
+				ifNotFound: [ stream back.
+					node == trie root
+						ifTrue: [ node := HSKTrieNodeUnknown new
 								char: stream next;
 								yourself ]
 						ifFalse: [ [ node word isNil and: [ path allButFirst isNotEmpty ] ]

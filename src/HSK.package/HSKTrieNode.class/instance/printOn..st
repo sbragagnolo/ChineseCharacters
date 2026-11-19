@@ -2,5 +2,5 @@ accessing
 printOn: aStream
 	aStream
 		nextPutAll: 'TN(';
-		nextPutAll: self word;
+		print: self word;
 		nextPut: $)
