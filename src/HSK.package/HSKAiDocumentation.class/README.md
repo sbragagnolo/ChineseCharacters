@@ -1,0 +1,1 @@
+AI documentation for the HSK package of the ChineseCharacters repository. Class-side methods describe the project, the domain abstractions, the dictionary trie, embedded data, the Wiktionary crawler, the SRS learning model, the Spec UI, entry points, testing strategy, extension strategy, usage scenarios and known gaps. Read them in that order.

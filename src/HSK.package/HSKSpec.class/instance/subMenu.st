@@ -1,6 +1,6 @@
 initialization
 subMenu
-	^ MenuPresenter new
+	^ SpMenuPresenter new
 		addGroup: [ :group | 
 			group
 				addItem: [ :item | 

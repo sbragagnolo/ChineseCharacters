@@ -4,7 +4,7 @@ openPinyinReminder
 	pa := self instantiate: HSKPinyinReminder.
 	pa model: self model.
 	pa startup.
-	pi := NotebookPage
+	pi := SpNotebookPage
 		title: 'Pinyin Reminder'
 		icon: (self iconNamed: #smallPaint)
 		provider: [ pa ].

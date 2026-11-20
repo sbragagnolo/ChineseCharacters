@@ -3,7 +3,7 @@ openPinyinAttack
 	| pi  |
 	attack := self instantiate: HSKPinyinAttack.
 	attack model: self model.
-	pi := NotebookPage
+	pi :=SpNotebookPage
 		title: 'Pinyin Attack'
 		icon: (self iconNamed: #smallPaint)
 		provider: [ attack ].

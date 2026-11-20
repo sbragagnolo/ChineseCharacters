@@ -1,0 +1,3 @@
+documentation
+project
+	^ 'HSK is a Chinese learning toolkit for Pharo. It models Chinese characters and words (traditional and simplified forms, pinyin, zhuyin, definitions, radicals, phonems, frequency, HSK module, related words), keeps a CC-CEDICT-derived dictionary in a character trie, embeds an HSK 1-6 character corpus and a CEDICT snapshot, and adds spaced-repetition learning (SRS) with Spec exercises: Pinyin Reminder and Pinyin Attack. The code is the package HSK of the Iceberg repository ChineseCharacters. Environment: Pharo 14.0.0 (update 140790). Only the Pharo standard library plus Zinc for HTTP crawling are used.'

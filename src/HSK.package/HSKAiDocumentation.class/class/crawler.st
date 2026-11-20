@@ -1,0 +1,3 @@
+documentation
+crawler
+	^ 'HSKCharacterCrawl (class-side only) builds HSKCharacter objects from English Wiktionary. load:frequency: GETs https://en.wiktionary.org/wiki/<char> with ZnEasy and parses HTML: fetchTraditionalCharacter:, fetchSimplifiedCharacter:, fetchTraditionalAndSimplified:, fetchPinyin:, fetchZhuyin:, fetchDefinition:. If the traditional and simplified forms are missing it follows the See also: links through loadSeeAlso:frequency: and loadAnyOfSeeAlso:frequency:, guarded by the class instance variable loadingRelated. It marks failures with hasErrorLoading and asserts that one parsed form matches the requested code. Parsing is literal HTML matching and is brittle when Wiktionary markup changes. Requires network access.'

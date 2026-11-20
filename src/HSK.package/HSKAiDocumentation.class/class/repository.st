@@ -1,0 +1,3 @@
+documentation
+repository
+	^ 'Repository: ChineseCharacters (Iceberg). Remote: origin. Current branch when this documentation was written: master; local branches master and fix-trie-stream-lookahead; initiative branch hsk-ai-documentation. Location: pharo-local/iceberg/sbragagnolo/ChineseCharacters. The repository contains only the package HSK. Head commit: 31c345f0. The working copy was already modified before this documentation initiative.'
