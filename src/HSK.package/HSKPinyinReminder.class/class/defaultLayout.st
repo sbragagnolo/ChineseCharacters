@@ -1,3 +1,3 @@
 specs
-defaultSpec
+defaultLayout
 	^ self box
