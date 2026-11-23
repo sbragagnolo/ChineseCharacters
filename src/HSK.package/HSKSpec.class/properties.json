@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposablePresenterWithModel",
+	"super" : "SpPresenterWithModel",
 	"category" : "HSK-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
