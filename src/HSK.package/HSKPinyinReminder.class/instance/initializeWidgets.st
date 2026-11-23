@@ -1,6 +1,6 @@
 initialization
 initializeWidgets
-	word := self instantiate: AthensStaticPresenter.
+	word := self instantiate: SpAthensPresenter.
 	word surfaceExtent: 100 @ 100.
 	word drawBlock: [ :canvas  : box| self drawCurrentWordOn: canvas box: box ].
 	meanings := self newText.
@@ -19,5 +19,5 @@ initializeWidgets
 	ok action: [ self acceptEntry ].
 	hint action: [ self hintNeeded ].
 	giveup action: [ self giveUp ].
-	todo := self instantiate: ComponentListPresenter.
-	done := self instantiate: ComponentListPresenter
+	todo := self instantiate: SpListPresenter.
+	done := self instantiate: SpListPresenter
