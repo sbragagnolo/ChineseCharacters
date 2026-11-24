@@ -1,0 +1,4 @@
+converting
+asUnicode
+
+	^ char asUnicode

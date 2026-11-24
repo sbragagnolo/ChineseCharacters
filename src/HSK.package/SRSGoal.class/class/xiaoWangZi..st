@@ -1,8 +1,12 @@
-accessing
+initialization
 xiaoWangZi: aSession
+
 	^ self new
-		words:
-			(HSKDictionaryLoader default
-				streamDefinitions: HSKDictionaryLoader xiaoWangZi readStream)
+
+		words: (HSKDictionaryLoader default
+
+					streamDefinitions: (HSKString fromString: HSKDictionaryLoader xiaoWangZi) readStream)
+
 				upToEnd;
+
 		session: aSession yourself

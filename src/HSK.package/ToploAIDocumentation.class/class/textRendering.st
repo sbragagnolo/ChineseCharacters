@@ -1,0 +1,4 @@
+documentation
+textRendering
+
+	^ 'CANNOTICAL text pattern in this Toplo/Bloc environment: EVERY text is a ToLabel text: (aBlRopedText). Style the roped text itself: (ToLabel text: (MyText asRopedText fontName: NSimSun; yourself)) — NOT label fontName:. For size: add fontSize: on the same roped text cascade. Rationale: the label-level fontName: goes through the label attributes builder and in this environment the drawn glyphs fell back to the host notdef box (box with cross) even after registering the family; styling the BlText directly renders correctly. NSimSun is the working Windows CJK family: register it once with AeFontManager globalInstance registerFacesOnFile: C:\Windows\Fonts\simsun.ttc (the HSK shell does it in class on:). Buttons and tab items take a styled ToLabel through label:. Text editors keep codeFontName: NSimSun.'

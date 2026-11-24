@@ -1,0 +1,4 @@
+accessing
+user
+
+	^ app currentUser
