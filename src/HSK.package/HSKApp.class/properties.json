@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"users",
+		"currentUser",
+		"style",
+		"announcer"
+	],
+	"name" : "HSKApp",
+	"type" : "normal"
+}

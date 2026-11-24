@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ToPane",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"factory",
+		"app",
+		"statusLabel",
+		"usersBar",
+		"menuPane",
+		"viewport",
+		"knowledgeView"
+	],
+	"name" : "HSKDesktopShell",
+	"type" : "normal"
+}

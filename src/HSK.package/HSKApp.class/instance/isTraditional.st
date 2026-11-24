@@ -1,0 +1,4 @@
+testing
+isTraditional
+
+	^ style = #traditional
