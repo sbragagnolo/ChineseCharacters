@@ -1,11 +1,9 @@
 tests
-testGiveUpLowersTheLevelButNeverBelowOne
+testGivingUpNeverDropsBelowTheFirstLevel
 
 	| content |
 
-	content := SRSKnownContent new.
-
-	content unlock.
+	content := self aKnownContentWithSuccesses: 2.
 
 	3 timesRepeat: [ content giveUp: #writing ].
 
