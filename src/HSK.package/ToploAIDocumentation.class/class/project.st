@@ -1,0 +1,4 @@
+documentation
+project
+
+	^ 'Toplo documentation for the HSK package of the ChineseCharacters repository. Toplo is the Pharo widget library built on Bloc: it adds themes, skins, stylesheets and reusable widgets over the BlElement scene graph. Widget classes have the To prefix (plus TTo* traits). Loaded packages: Toplo (core: skins, themes infrastructure, events, anchored windows), Toplo-Theme, Toplo-Theme-Bee (the ToBeeTheme light/default and ToBeeDarkTheme), Toplo-Widget-* (Button, Pane, List, TabPane, Select, Checkbox, Image, ProgressBar, Tag, Table, Tree, Menu, Accordion, ...) and examples in Toplo-Examples and Toplo-Demo. The HSK app is a desktop application on this stack: a themed space with panes for the knowledge evolution of an SRS user (SRSUser/SRSGoal/SRSKnownContent), user selection/creation and several exercises; a game will be added on top in the next initiative.'

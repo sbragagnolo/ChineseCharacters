@@ -1,0 +1,4 @@
+documentation
+project
+
+	^ 'Bloc documentation for the HSK package of the ChineseCharacters repository. Bloc is the retained-mode 2D UI framework of Pharo 14: a scene graph of BlElement instances rendered by hosts (OSWindow SDL2 by default, see BlocHost-* packages). Toplo (the widget library used by the HSK app) is built on top of Bloc. All Bloc classes have the Bl prefix and live in packages Bloc, Bloc-Layout, Bloc-Text, Bloc-Animation, Bloc-Overlay, BlocHost-*. HSK re-created its Spec UI as a Toplo/Bloc desktop application that shows the knowledge evolution of an SRS user and offers exercises; the next initiative will add a game on top of the same model, so elements must stay composable and model-driven.'

@@ -1,0 +1,4 @@
+documentation
+events
+
+	^ 'Bloc dispatches bubbling events; the API on BlElement is addEventHandlerOn: anEventClass do: aBlock, plus addEventHandlerOn:doOnce:, addEventHandlerIfNotPresent:, addEventHandler: anEventHandler (BlEventHandler on: anEventClass do: aBlock), addEventFilter: and addEventHandlerOn:doUntil:. IMPORTANT: BlElement does NOT implement when:do: (that trait belongs to Toplo widgets); always use addEventHandlerOn:do:. Useful classes: BlClickEvent, BlPrimaryClickEvent, BlMouseDownEvent/BlMouseUpEvent, BlMouseMoveEvent, BlMouseEnterEvent/BlMouseLeaveEvent, BlMouseWheelEvent, BlKeyDownEvent/BlKeyUpEvent, BlShortcutEvent, BlTextInputEvent, BlDoubleClickEvent. Custom events: subclass BlEvent (or Toplo ToSkinEvent) and dispatch with fireEvent: anEvent. Keyboard interactions can also be declared with addShortcut:/shortcuts: using BlKeyCombination.'

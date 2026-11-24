@@ -1,0 +1,4 @@
+documentation
+space
+
+	^ 'BlSpace is the root window/scene: space root is the scene graph root, space show opens it, space extent:/title: configure it, space closeOnPicking closes on outer click, space toTheme: aToTheme is the Toplo entry point. To open: anElement openInSpace (creates a space, adds self, shows it and answers the space), anElement openInNewSpace, or anElement inSpace (answers an unattached space ready to show). The pulse loop lives in the host; every pulse runs the space frame phases (tasks, events, layout, drawing). Tasks/animations are kept in the space taskQueue and can be scheduled with enqueueTask: / element addAnimation:.'

@@ -1,0 +1,4 @@
+documentation
+animation
+
+	^ 'Animations live in Bloc-Animation and are BlTask instances enqueued in the space. Add one with anElement addAnimation: anAnimation (works detached: it starts when the element is attached to a space). BlBaseAnimation gives duration:, delay:, loops: / beInfinite and onFinishedDo:; transitions provide step-by-step interpolation: BlNumberTransition (from:/to:/onStepDo: aBlock), BlColorTransition, BlOpacityAnimation and BlTransformAnimation. Compose with BlParallelAnimation, BlSequentialAnimation and BlCompositeAnimation. Easing via easing: (BlEasing subclasses). An animation cannot be reused after finishing: build a new one for every run. For game loop effects prefer animations or periodic tasks over a manual pulse loop.'
