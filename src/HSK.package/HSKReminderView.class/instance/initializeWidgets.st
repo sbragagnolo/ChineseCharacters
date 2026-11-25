@@ -1,9 +1,7 @@
 initialization
 initializeWidgets
-	| titleLabel wordLabel meaningsLabel input okButton hintButton giveUpButton resultLabel updateView |
-	self removeChildren.
-	titleLabel := ToLabel text: (factory styledText: page title fontSize: 20).
-	self tooltipText: page explanation.
+	| wordLabel meaningsLabel input okButton hintButton giveUpButton resultLabel updateView |
+	super initializeWidgets.
 	wordLabel := factory bigLabelFor: page currentSpelling.
 	wordLabel id: #word.
 	meaningsLabel := factory labelFor: (', ' join: page currentMeanings asArray).
@@ -26,4 +24,4 @@ initializeWidgets
 		updateView value ].
 	hintButton := factory buttonFor: 'Hint' action: [ resultLabel text: (factory styledText: page hintText) ].
 	giveUpButton := factory buttonFor: 'Give up' action: [ page giveUp. page next. updateView value ].
-	self addChildren: { titleLabel. wordLabel. meaningsLabel. input. resultLabel. okButton. hintButton. giveUpButton }
+	self addChildren: { wordLabel. meaningsLabel. input. resultLabel. okButton. hintButton. giveUpButton }

@@ -10,8 +10,9 @@ caveats
 - SRSGoal words uses trie nodes as knowledge keys while unlockedWords uses HSKString keys, creating two SRSKnownContent objects per word.
 - SRSKnownContent skillListening uses the tag #listenting (typo), different from the other skill tags.
 - HSKPinyinReminder keeps legacy layout methods (box, grid, bodyGrid, table) next to defaultSpec; HSKSpec menu is never assigned.
+- ToElement childWithId: behaves like a global id registry: a freshly built HSKDesktopShell does not contain #header/#knowledge/#exercises and raises "Children with id X does not exist" for them, while stale ids from older builds can still answer; write tests against the real ids (#menu, #viewport, #tiles, #usersBar, #status, button ids). This phantom behavior broke HSKDesktopShellTest suite run (2 spurious errors) until the phantom tests were fixed/removed in the exercise-titles initiative.
 - HSKTrieStream next uses stream back for lookahead; see the local branch fix-trie-stream-lookahead.
 - HSKCharacterProvider encodedInstances is a 7.15 MB literal, which makes compilation and image size heavy.
 - HSKCharacterCrawl depends on Wiktionary HTML and network access; parsing breaks when the markup changes.
 - HSKDictionaryLoader stonContent is embedded but unused; default starts with an empty trie.
-- Tests cover only the trie, the SRS review schedule, module comparison and the phonetic assertion rule.'
+- Tests cover the trie, the SRS review schedule and skills, module comparison, the phonetic assertion rule, the app, the knowledge overview, the exercise pages, the exercise views (black-box and grey-box) and the desktop shell.'

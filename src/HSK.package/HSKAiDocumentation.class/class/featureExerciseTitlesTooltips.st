@@ -20,14 +20,11 @@ Each exercise in the HSK project displays a **title** and a **tooltip** explaini
 3. Display the explanatory tooltip of each exercise in the interface. (DONE - accepted)
 
 ## State
-- First commit on the initiative branch:
-  - `HSKReminderPage` / `HSKQuizPage`: class-side `title` and `explanation` (English), instance-side delegates with `self class`.
-  - `HSKDesktopShell>>buildMenu`: menu buttons show English titles (Knowledge / Pinyin Reminder / Pinyin Quiz / Game); the two exercise buttons get `tooltipText:` with the page explanation.
-  - `HSKReminderView>>initializeWidgets` / `HSKQuizView>>initializeWidgets`: title label (fontSize 20, first element) + `self tooltipText: page explanation`.
-  - Dead tab-pane code (buildExercises/exercisePaneFor:/buildReminderView/buildQuizView) left untouched at its original source.
-  - `HSKExerciseTitlesTest` (black-box, 6 tests green) covers class/instance titles and explanations, menu button labels+tooltips, and view titles+tooltips.
-- Key discovery: the live UI is menu buttons + HSKReminderView/HSKQuizView in the viewport; the tab-pane exercise path has no senders.
-- Pre-existing bugs found (to be recorded in AIDocumentation):
-  - `HSKDesktopShellTest suite run` reports 2 errors that do not occur when tests run individually (verified with changes reverted).
-  - `childWithId:` answers from a global id registry: a fresh shell does not contain #header/#knowledge/#exercises (raises "Children with id X does not exist"), yet the structure test passes individually. `buildHeader` is dead code.
-- Pending: user must choose one of the proposed refactorings (step 4.g), then grey-box tests, AIDocumentation update, second commit.'
+- First commit (7cb1f80): class-side `title`/`explanation` on HSKReminderPage/HSKQuizPage; English titles + tooltips on the exercise menu buttons and inside HSKReminderView/HSKQuizView; black-box HSKExerciseTitlesTest (6 green).
+- Refactoring commit (accepted by user):
+  - A) Removed dead code from HSKDesktopShell: buildExercises, exercisePaneFor:, buildReminderView, buildQuizView, quizOptionButtonFor:answering:redrawing:, buildHeader.
+  - B) Menu manifest: HSKDesktopShell class>>menuEntries (4 entries {id. title. tooltip. selector}); buildMenu builds one button per entry; all four menu buttons have tooltips now.
+  - C) New abstract superclass HSKExerciseView (ToPane, slots page/factory): initialize (vertical+matchParent), initializeWidgets = removeChildren + addTitleAndTooltip; HSKReminderView/HSKQuizView subclass it and call super initializeWidgets.
+  - Grey-box HSKExerciseViewTest (6 green); black-box HSKExerciseTitlesTest (6 green); HSKDesktopShellTest fixed to real ids: 13/13 green via suite run - the pre-existing "suite run shows 2 errors" bug was caused by phantom-id tests and is now fixed.
+  - Pending: update HSKAiDocumentation + commit documentation (4.l/4.m). DONE in this commit.
+- Session 2 pending: none explicitly; initiative goal reached and accepted.'

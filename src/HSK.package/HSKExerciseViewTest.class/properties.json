@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"app",
+		"factory",
+		"shell"
+	],
+	"name" : "HSKExerciseViewTest",
+	"type" : "normal"
+}

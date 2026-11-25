@@ -1,13 +1,12 @@
 {
 	"commentStamp" : "",
-	"super" : "ToPane",
+	"super" : "HSKExerciseView",
 	"category" : "HSK",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"page",
-		"factory"
+		""
 	],
 	"name" : "HSKQuizView",
 	"type" : "normal"

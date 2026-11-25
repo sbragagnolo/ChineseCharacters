@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ToPane",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"page",
+		"factory"
+	],
+	"name" : "HSKExerciseView",
+	"type" : "normal"
+}

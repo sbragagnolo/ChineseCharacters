@@ -1,9 +1,7 @@
 initialization
 initializeWidgets
-	| titleLabel targetLabel optionsPane resultLabel redraw |
-	self removeChildren.
-	titleLabel := ToLabel text: (factory styledText: page title fontSize: 20).
-	self tooltipText: page explanation.
+	| targetLabel optionsPane resultLabel redraw |
+	super initializeWidgets.
 	targetLabel := factory bigLabelFor: page targetSpelling.
 	targetLabel id: #target.
 	optionsPane := ToPane horizontal.
@@ -16,4 +14,4 @@ initializeWidgets
 		page options
 			do: [ :each | optionsPane addChild: (self optionButtonFor: each result: resultLabel redrawing: redraw) ] ].
 	redraw value.
-	self addChildren: { titleLabel. targetLabel. optionsPane. resultLabel }
+	self addChildren: { targetLabel. optionsPane. resultLabel }
