@@ -5,7 +5,7 @@ testTheShellFollowsAppAnnouncements
 
 	app newUser.
 
-	self assert: (shell childWithId: #knowledge) childrenCount >= 1.
+	self assert: (shell childWithId: #tiles) childrenCount >= 1.
 
 	self assert: (shell childWithId: #usersBar) childrenCount equals: 1.
 

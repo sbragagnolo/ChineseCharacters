@@ -6,11 +6,13 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"factory",
 		"app",
 		"statusLabel",
 		"usersBar",
-		"knowledgePane",
-		"exerciseTabs"
+		"menuPane",
+		"viewport",
+		"knowledgeView"
 	],
 	"name" : "HSKDesktopShell",
 	"type" : "normal"

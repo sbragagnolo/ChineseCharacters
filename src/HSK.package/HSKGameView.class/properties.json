@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "ToPane",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"factory",
+		"game"
+	],
+	"name" : "HSKGameView",
+	"type" : "normal"
+}

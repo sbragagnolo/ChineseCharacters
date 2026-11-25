@@ -1,28 +1,34 @@
-initialization
+accessing
 app: anHSKApp
 
 	app := anHSKApp.
 
-	self refreshAll.
+	knowledgeView := HSKKnowledgeView on: app factory: factory.
+
+	self refreshUsers.
+
+	self showKnowledgePage.
 
 	app announcer
 
 		when: HSKUserAdded
 
-		do: [ :anAnnouncement | self refreshAll ]
+		do: [ :anAnnouncement | self refreshUsers. self knowledgeView refresh ]
 
 		for: self;
 
 		when: HSKUserSelected
 
-		do: [ :anAnnouncement | self refreshAll ]
+		do: [ :anAnnouncement | self refreshUsers. self knowledgeView refresh ]
 
 		for: self;
 
 		when: HSKStyleChanged
 
-		do: [ :anAnnouncement | self refreshAll ]
+		do: [ :anAnnouncement | self knowledgeView refresh ]
 
 		for: self.
+
+	self subscribeToCurrentUser.
 
 	^ self

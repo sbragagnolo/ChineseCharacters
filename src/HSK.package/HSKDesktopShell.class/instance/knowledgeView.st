@@ -1,0 +1,4 @@
+accessing
+knowledgeView
+
+	^ knowledgeView

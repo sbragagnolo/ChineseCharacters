@@ -8,7 +8,6 @@
 	"instvars" : [
 		"app",
 		"goal",
-		"style",
 		"target",
 		"options",
 		"answerResult"

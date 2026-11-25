@@ -7,12 +7,8 @@ initialize
 
 	self matchParent.
 
-	self
+	factory := HSKWidgetFactory withFont: 'NSimSun'.
 
-		buildHeader;
+	self buildToolbar.
 
-		buildKnowledge;
-
-		buildExercises;
-
-		buildStatus
+	self buildBody.

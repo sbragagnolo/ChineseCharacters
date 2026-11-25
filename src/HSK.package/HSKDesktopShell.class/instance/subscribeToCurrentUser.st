@@ -1,4 +1,4 @@
-refreshing
+notifications
 subscribeToCurrentUser
 
 	app currentUser isNil
@@ -9,6 +9,6 @@ subscribeToCurrentUser
 
 		when: SRSLevelUp
 
-		do: [ :anAnnouncement | statusLabel text: ('Knowledge level up!' asRopedText fontName: 'NSimSun'; yourself) ]
+		do: [ :anAnnouncement | statusLabel text: (factory styledText: 'Knowledge level up!') ]
 
 		for: self

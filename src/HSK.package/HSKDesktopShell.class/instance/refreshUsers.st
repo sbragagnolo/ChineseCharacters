@@ -5,14 +5,4 @@ refreshUsers
 
 	app users
 
-		doWithIndex: [ :each :anIndex |
-
-			| userButton |
-
-			userButton := ToButton new.
-
-			userButton label: (ToLabel text: (('User ' , anIndex asString) asRopedText fontName: 'NSimSun'; yourself)).
-
-			userButton addEventHandlerOn: ToClickedSkinEvent do: [ :anEvent | self app currentUser: each ].
-
-			usersBar addChild: userButton ]
+		doWithIndex: [ :each :anIndex | usersBar addChild: (factory buttonFor: 'User ' , anIndex asString action: [ self app currentUser: each ]) ]
