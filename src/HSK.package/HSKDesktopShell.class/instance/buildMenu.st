@@ -1,22 +1,14 @@
 building
 buildMenu
-
 	| knowledgeButton reminderButton quizButton gameButton |
-
-	knowledgeButton := factory menuButtonFor: '知' action: [ self showKnowledgePage ].
-
+	knowledgeButton := factory buttonFor: 'Knowledge' action: [ self showKnowledgePage ].
 	knowledgeButton id: #knowledgeButton.
-
-	reminderButton := factory menuButtonFor: '练' action: [ self showReminderPage ].
-
+	reminderButton := factory buttonFor: HSKReminderPage title action: [ self showReminderPage ].
 	reminderButton id: #reminderButton.
-
-	quizButton := factory menuButtonFor: '测' action: [ self showQuizPage ].
-
+	reminderButton tooltipText: HSKReminderPage explanation.
+	quizButton := factory buttonFor: HSKQuizPage title action: [ self showQuizPage ].
 	quizButton id: #quizButton.
-
-	gameButton := factory menuButtonFor: '戏' action: [ self showGamePage ].
-
+	quizButton tooltipText: HSKQuizPage explanation.
+	gameButton := factory buttonFor: 'Game' action: [ self showGamePage ].
 	gameButton id: #gameButton.
-
-	menuPane addChildren: { knowledgeButton. reminderButton. quizButton. gameButton }.
+	menuPane addChildren: { knowledgeButton. reminderButton. quizButton. gameButton }
