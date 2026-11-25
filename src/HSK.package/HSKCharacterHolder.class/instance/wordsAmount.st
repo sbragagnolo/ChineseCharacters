@@ -1,0 +1,4 @@
+accessing
+wordsAmount
+
+	^ 0
