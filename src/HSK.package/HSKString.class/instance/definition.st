@@ -1,11 +1,18 @@
-as yet unclassified
+accessing
 definition
-	| definitions  |
-	definitions :=  (HSKDictionaryLoader default trie
+
+	| definitions firstDefinitions |
+
+	definitions := ((HSKDictionaryLoader default trie
+
 		definitionsFor: self
-		ifNone: [ {} ]) collect: [ :set | ', ' join: set ].
-	self size = 1 ifTrue: [ 
-		definitions := self first definition  ,  definitions 
-	 ].
-	^ definitions 
-	
+
+		ifNone: [ {} ])
+
+		collect: [ :each | ', ' join: each asArray ]) asArray.
+
+	self size = 1 ifTrue: [ firstDefinitions := (self first definition asArray).
+
+		definitions := firstDefinitions , definitions ].
+
+	^ definitions

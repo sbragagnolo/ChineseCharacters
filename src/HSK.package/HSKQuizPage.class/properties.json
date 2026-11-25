@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "HSK",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"app",
+		"goal",
+		"target",
+		"options",
+		"answerResult"
+	],
+	"name" : "HSKQuizPage",
+	"type" : "normal"
+}
