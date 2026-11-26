@@ -10,24 +10,15 @@ app: anHSKApp
 	self showKnowledgePage.
 
 	app announcer
-
-		when: HSKUserAdded
-
-		do: [ :anAnnouncement | self refreshUsers. self knowledgeView refresh ]
-
+		when: HSKUserAdded do: [ :anAnnouncement |
+				self refreshUsers.
+				self knowledgeView refresh ]
 		for: self;
-
-		when: HSKUserSelected
-
-		do: [ :anAnnouncement | self refreshUsers. self knowledgeView refresh ]
-
+		when: HSKUserSelected do: [ :anAnnouncement |
+				self refreshUsers.
+				self knowledgeView refresh ]
 		for: self;
-
-		when: HSKStyleChanged
-
-		do: [ :anAnnouncement | self knowledgeView refresh ]
-
-		for: self.
+		when: HSKStyleChanged do: [ :anAnnouncement | self knowledgeView refresh ] for: self.
 
 	self subscribeToCurrentUser.
 

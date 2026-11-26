@@ -1,14 +1,8 @@
 showing
 showReminderPage
 
-	self app currentUser isNil
-
-		ifTrue: [ self showInViewport: (factory labelFor: 'Create a user first') ]
-
-		ifFalse: [ | view |
-
+	self app currentUser ifNil: [ self showInViewport: (factory labelFor: 'Create a user first') ] ifNotNil: [
+			| view |
 			view := HSKReminderView page: (HSKReminderPage on: app) factory: factory.
-
 			view initializeWidgets.
-
 			self showInViewport: view ]

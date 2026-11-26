@@ -1,10 +1,8 @@
 showing
 showKnowledgePage
 
-	self knowledgeView isNil
-
-		ifTrue: [ ^ self ].
+	self knowledgeView ifNotNil: [ ^ self ].
 
 	self knowledgeView refresh.
 
-	self showInViewport: self knowledgeView.
+	self showInViewport: self knowledgeView
